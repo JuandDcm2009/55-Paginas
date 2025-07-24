@@ -1,0 +1,28 @@
+
+body {
+    margin: 0;
+    border: 0;
+}
+
+.web-header {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.img-container img {
+    width: 316px;
+    height: 288px;
+}
+
