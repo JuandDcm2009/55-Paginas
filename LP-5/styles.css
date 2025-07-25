@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Pfont';
+  src: url('../Fonts/Avenir\ Regular.ttf') format('truetype');
+}
+
+
+body {
+    margin: 0;
+    border: 0;
+    font-family: "Pfont";
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header h1 {
+    margin: 40px;
+    width: 400px;
+    font-size: 3.5rem;
+}
+
+main {
+    display: flex;
+    margin: 40px;
+    gap: 100px
+}
+
+main div {
+    width: 400px;
+}
+
+main div h2 {
+    color: gray;
+}
+
+main div p {
+    color: gray;
+}

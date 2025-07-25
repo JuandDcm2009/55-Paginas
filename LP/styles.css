@@ -1,6 +1,13 @@
+@font-face {
+  font-family: 'Pfont';
+  src: url('../Fonts/Avenir\ Regular.ttf') format('truetype');
+}
+
+
 body {
     margin: 0;
     border: 0;
+    font-family: "Pfont";
 }
 
 main {
@@ -30,20 +37,16 @@ main {
 
 
 .title-container h1 {
-    color: rgb(63, 63, 63);
+    color: rgb(0, 0, 0);
     margin: 0;
-    font-family: "Arial", sans-serif;
     font-size: 2.5rem;
     text-align: center;
     padding-bottom: 10px;
-    text-shadow: -2px 2px 3px rgba(0, 0, 0, 0.171);
-
 }
 
 .title-container p {
     color: rgb(0, 0, 0);
     margin-top: 0;
-    font-family: "Arial", sans-serif;
     font-size: 1rem;
     text-align: center;
 }
@@ -51,7 +54,6 @@ main {
 .title-container a {
     margin-top: 30px;
     color: black;
-    font-family: "Arial";
     text-decoration: none;
 }
 
@@ -76,7 +78,7 @@ main {
 }
 
 .LP {
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.178);
+    
     width: 190px;
     min-height: 90%;
     text-align: center;
@@ -84,13 +86,12 @@ main {
     font-weight: 800;
     margin: 20px 10px;
     transition: all 0.4s;
-    font-family: "Arial";
     color: rgb(148, 148, 148);
+    box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.178);
 }
 
 .LP a {
     color: rgb(148, 148, 148);
-    font-family: "Arial";
     text-decoration: none;
 }
 
@@ -102,6 +103,8 @@ main {
 
 .LP:hover {
     transform: scale(106%);
+    box-shadow: 0px 6px 1px rgba(0, 0, 0, 0.349);
+    
 }
 
 .LP img {

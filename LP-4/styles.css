@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Pfont';
+  src: url('../Fonts/Avenir\ Regular.ttf') format('truetype');
+}
+
+
+body {
+    margin: 0;
+    border: 0;
+    font-family: "Pfont";
+    font-size: 8px;
+}
+
+.body-class {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside-container {
+    width: 500px;
+}
+
+aside {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside h1 {
+    font-size: 3rem;
+}
+
+aside p {
+    color: gray;
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+aside a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+}
+
+.p_01 {
+    margin-top: 60px;
+}
+
+aside div h2 {
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.main img {
+    max-width: 50vh;
+}
+
