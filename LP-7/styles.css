@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Pfont';
+    src: url('../Fonts/Avenir\ Regular.ttf') format('truetype');
+}
+  
+body {
+  margin: 60px;
+  border: 0;
+  font-family: "Pfont";
+}
+  
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-left: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.cards-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-item p {
+    width: 300px;
+    color: gray;
+}
+
+.card-item h2 {
+    color: gray;
+}
