@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: "Pfont";
+}
+
+main {
+    margin: 50px;
+}
+
+.up-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-container h1 {
+    font-size: 2.5rem;
+    font-family: "Poppins";
+    font-weight: 550;
+    color: #252525;
+    margin: 0;
+}
+
+.title-container p {
+    text-align: center;
+    width: 450px;
+    font-weight: 10;
+    color: #252525d8;
+    margin: 30px 0px;
+}
+
+.title-container a {
+    text-decoration: none;
+    color: white;
+    background-color: #252525;
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+
+.down-section {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-container {
+    top: 400px;
+    position: absolute;
+    display: flex;
+    width: 900px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.list-item {
+    width: 150px;
+}
+
+.list-container h1 {
+    font-size: 1rem;
+}
+
+.list-container h1::after {
+    display: block;
+    margin-top: 10px;
+    content: "";
+    width: 20%;
+    height: 3px;
+    background-color: #252525;
+}
+
+.list-container p {
+    color: #252525d0;
+}
+
+.down-image-container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

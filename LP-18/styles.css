@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.title-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container h1 {
+    font-size: 3.5rem;
+    line-height: 60px;
+    margin: 0;
+}
+
+.title-container p {
+    font-size: 1.2rem;
+    width: 350px;
+}
+
+.title-container a {
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #252525;
+    padding: 12px 40px;
+    border-radius: 25px;
+    font-family: "Pfont";
+}
+
+.down-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 582px;
+}
