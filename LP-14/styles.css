@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: "Poppins";
+}
+
+main {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.left-side {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.title-container {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-container h1 {
+    color: #2C1001;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.title-text {
+    margin-top: 20px;
+    color: #2C1001;
+    font-size: 1.2rem;
+    width: 400px;
+}
+
+.title-container a {
+    color: #2C1001;
+    background-color: #FFDE81;
+    width: 190px;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.list {
+    margin-top: 100px;
+    justify-self: flex-end;
+    align-self: flex-end;
+    width: 450px;
+    height: 120px;
+    background-color: #49342F;
+    color: white;
+    display: flex;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.list-item {
+    width: 25%;
+    font-size: 0.8rem;
+}
+
+.list-item h2::after {
+    display: block;
+    content: "";
+    width: 20%;
+    height: 3px;
+    background-color: white;
+}
+
+.right-side {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.right-containers {
+    width: 700px;
+    height: 800px;
+    position: relative;
+}
+
+.brown-box {
+    position: absolute;
+    background-color: #2A211C;
+    width: 440px;
+    height: 440px;
+    right: 200px;
+    z-index: 1;
+    transform: rotate(30deg);
+    top: 150px;
+    left: 130px;
+}
+
+.yellow-box {
+    position: absolute;
+    background-color: #FFDE81;
+    width: 450px;
+    height: 550px;
+    top: 60px;
+    z-index: 2;
+}
+
+.img-phone {
+    left: -40px;
+    top: 300px;
+    position: absolute;
+    width: 500px;
+    z-index: 5;
+}
+
+.icon-heart {
+    top: 260px;
+    left: 100px;
+    width: 250px;
+    position: absolute;
+    z-index: 4;
+}
+
+.icon-bron-star {
+    top: -20px;
+    left: -70px;
+    width: 170px;
+    z-index: 3;
+    position: absolute;
+}
+
+.icon-yellow-star {
+    width: 140px;
+    z-index: 3;
+    position: absolute;
+    right: 100px;
+    bottom: 40px;
+}
+
+.star1 {
+    left: 320px;
+    top: 60px;
+    width: 130px;
+    z-index: 3;
+    position: absolute;
+}
+
+.star2 {
+    width: 100px;
+    top: 260px;
+    right: 120px;
+    z-index: 3;
+    position: absolute;
+}
+

@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    position: relative;
+    gap: 20px;
+    width: 1020px;
+    margin: 40px auto;
+    display: flex;
+}
+
+.left-section {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.left-section h1 {
+    color: #252525;
+    font-size: 3rem;
+    line-height: 65px;
+    font-weight: 530;
+    margin: 0;
+}
+
+.left-section p {
+    margin-top: 30px;
+    width: 300px;
+    font-size: 1.2rem;
+    color: #252525;
+    margin-bottom: 40px;
+}
+
+.left-section a {
+    text-decoration: none;
+    color: white;
+    background-color: #457D61;
+    font-family: "Pfont";
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+.left-img-container {
+    margin-top: 40px;
+    height: 276px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.left-img-container img {
+    width: 135px;
+}
+
+.img-right {
+    align-self: flex-start;
+} 
+
+.mid-section {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-section img {
+    margin-top: 60px;
+    width: 300px;
+    height: 500px;
+}
+
+.title-container {
+    position: relative;
+    background-color: #252525;
+    transform: rotate(-35deg);
+}
+
+.title-container span {
+    position: absolute;
+    transform-origin: 15px 220px;
+    transform: rotate(calc(var(--i) * 5deg));
+    font-size: 1.6rem;
+    font-weight: 545;
+    top: -40px;
+    left: -140px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.right-img-container {
+    height: 290px;
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    justify-content: center;
+}
+
+.right-img-container img {
+    width: 140px;
+}
+
+.img-right {
+    align-self: flex-start;
+}
+
+.right-section p {
+    margin-left: 20px;
+    margin-top: 60px;
+    width: 230px;
+    font-size: 1.2rem;
+    color: #252525;
+    margin-bottom: 40px;
+}
+
+.right-section h1 {
+    
+    color: #252525;
+    font-size: 3rem;
+    line-height: 65px;
+    font-weight: 530;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.star1 {
+    position: absolute;
+    top: 55px;
+    left: 260px;
+}
+
+.star2 {
+    position: absolute;
+    bottom: 370px;
+    right: 190px;
+}

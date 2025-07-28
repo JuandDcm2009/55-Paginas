@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf);
+}
+
+body {
+    margin: 40px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    margin: auto;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left-section {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title-container {
+    width: 370px;
+    font-size: 1.3rem;
+    line-height: 25px;
+}
+
+.title-container h2 {
+    color: rgba(172, 172, 172, 0.87);
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.title-container p {
+    margin: 0;
+    margin-top: 5px;
+    color: #252525b6;
+}
+
+.left-section img {
+    margin-top: 240px;
+    max-width: 500px;
+    min-width: 400px;
+}
+
+.mid-section {
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mid-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 10px;
+}
+
+.mid-container h1 {
+    margin-top: 0px;
+    margin-bottom: 60px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 500;
+}
+
+.mid-container p {
+    margin: 0;
+    text-align: center;
+    width: 300px;
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+.mid-container a {
+    text-decoration: none;
+    color: white;
+    background-color: #252525;
+    padding: 10px 40px;
+    border-radius: 25px;
+    font-family: "Pfont";
+}
+
+.right-section {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-container {
+    width: 370px;
+    font-size: 1.3rem;
+    line-height: 25px;
+}
+
+.right-container h2 {
+    color: rgba(172, 172, 172, 0.87);
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.right-container p {
+    margin: 0;
+    margin-top: 5px;
+    color: #252525b6;
+}
+
+.right-section img {
+    margin-bottom: 200px;
+}
+
+
+.chucherias {
+    position: absolute;
+    width: 1300px;
+    height: 100%;
+}
+
+.chucherias-container {
+    position: absolute;
+    width: 1300px;
+    height: 900px;
+}
+
+.explosion {
+    z-index: 5;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+}
+
+.sun {
+    width: 150px;
+    position: absolute;
+    bottom: 140px;
+    right: 20px;
+}
+
+.star1 {
+    position: absolute;
+    top: 130px;
+    left: 250px;
+}
+
+.star2 {
+    position: absolute;
+    width: 200px;
+    bottom: 160px;
+    right: 240px;
+}
+
+.gra {
+    position: absolute;
+}

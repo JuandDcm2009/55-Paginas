@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #2F2F2F;
+    font-family: "Pfont";
+}
+
+.body-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-aside {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    width: 400px;
+}
+
+.title-container h1 {
+    font-family: "Poppins";
+    font-size: 4rem;
+    margin: 0;
+}
+
+.title-container p {
+    color: rgb(218, 218, 218);
+    font-size: 1.3rem;
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.title-container a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+main {
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container img {
+    width: 90%;
+    height: auto;
+}
+
+.col1 {
+    width: 134.4;
+}

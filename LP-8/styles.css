@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Pfont';
+  src: url('../Fonts/Avenir\ Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    border: 0;
+    font-family: "Pfont";
+    background-color: #9C2004;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+
+.title-section {
+    margin-bottom: 120px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title-container {
+    width: 350px;
+}
+
+.title-section h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 4rem;
+    font-family: 'Work Sans';
+    line-height: 80px;
+}
+
+.title-section p {
+    font-family: 'Work Sans';
+    color: rgb(212, 212, 212);
+    font-size: 1.2rem;
+    margin-bottom: 60px;
+    font-weight: 300;
+}
+
+.title-section a {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Work Sans';
+    color: black;
+    background-color: #E5B94B;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px 40px;
+}
+
+.img-container {
+    position: relative;
+    width: 700px;
+    height: 734px;
+}
+
+.negrote {
+    left: 15%;
+    bottom: 0px;
+    position: absolute;
+    width: 500px;
+    z-index: 3;
+}
+
+.fond-circle {
+    left: 15%;
+    top: 4%;
+    position: absolute;
+    background-color: #E5B94B;
+    width: 550px;
+    height: 550px;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.fond-pattern2 {
+    z-index: 2;
+    right: 8%;
+    bottom: 5%;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.fond-pattern1 {
+    z-index: 2;
+    left: 10%;
+    top: 5%;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}

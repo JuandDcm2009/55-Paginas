@@ -1,0 +1,126 @@
+html {
+    background-image: linear-gradient(to right ,#C8CCCF, #97A3A3);
+}
+
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf) format('truetype');
+}
+
+body {
+    margin: 0;
+    font-family: "Pfont";
+    background-image: linear-gradient(to right ,#C8CCCF, #97A3A3);
+}
+
+main {
+    width: 1400px;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.fond-section {
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.img-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.img-container img {
+    
+}
+
+.image-left {
+    margin-right: 240px;
+    width: 450px;
+    max-height: 55%;
+    align-self: flex-end;
+}
+
+.image-right {
+    max-width: auto;;
+    max-height: 55%;
+}
+
+.content-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-container {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.title-article {
+    margin-left: 280px;
+    margin-top: 20px;
+    margin-bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-self: flex-start;
+}
+
+.title-article h1 {
+    margin: 0;
+    font-size: 4.5rem;
+    font-family: "Poppins";
+    color: #363830;
+}
+
+.title-article p {
+    margin-top: 0px;
+}
+
+.title-article a {
+    text-align: center;
+    padding: 10px 0px;
+    width: 120px;
+    background-color: #363830;
+    color: white;
+    text-decoration: none;
+    border-radius: 23px;
+}
+
+.list {
+    align-self: flex-end;
+    display: flex;
+    width: 600px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-image: linear-gradient(to right, #ffffff50, #ffffff30);
+    padding: 15px 100px;
+    border-radius: 180px;
+    gap: 40px;
+}
+
+.item-list h2::after {
+    display: block;
+    content: "";
+    width: 15%;
+    height: 3px;
+    background-color: black;
+    margin-top: 4px;
+}
+
+.item-list p {
+    color: rgb(65, 65, 65);
+}
+

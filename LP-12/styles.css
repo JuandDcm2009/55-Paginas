@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf);
+}
+:root {
+    --font-color: #252525;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Pfont";   
+}
+
+main {
+    margin: auto;
+    margin-bottom: 60px;
+    width: 1300px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.title-section {
+    justify-self: flex-start;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 100vh;
+}
+
+.title-section h1 {
+    color: var(--font-color);
+    font-size: 4rem;
+    margin: 0px;
+}
+
+.title-section p {
+    color: #252525b9;
+    margin-bottom: 30px;
+}
+
+.title-section a {
+    background-color: var(--font-color);
+    color: white;
+    text-decoration: none;
+    width: 120px;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 25px;
+}
+
+.card-section {
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    gap: 20px;
+    height: 100px;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.card-section img {
+    width: 80px;
+    height: 80px;
+}
+
+.card-section p {
+    color: #252525b9;
+}
+
+.img-section {
+    position: absolute;
+    width: 1300px;
+    height: 860px;
+    top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.img-section img {
+    width: 300px;
+}
+
+.img-container {
+    margin-top: 40px;
+    height: 860px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.img-left {
+    align-self: flex-end;
+}
+
+.img-right {
+    align-self: flex-start;
+}
+
+.icon-section {
+    position: absolute;
+    width: 1200px;
+    height: 860px;
+}
+
+.icon-container {
+    position: relative;
+    width: 1200px;
+    height: 860px;
+}
+
+.icon_star1 {
+    position: absolute;
+    top: 320px;
+    left: 470px;
+}
+
+.icon_star2 {
+    position: absolute;
+    bottom: 120px;
+    right: -20px;
+}
+
+.icon_spiral {
+    width: 120px;
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+}
+
+.icon_shape {
+    width: 300px;
+    position: absolute;
+    top: 60px;
+    left: 440px;
+}

@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: "Pfont";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.up-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+}
+
+.article-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    width: 500px;
+}
+
+.title-container h1 {
+    color: #252525;
+    font-size: 3.5rem;
+    margin: 0px;
+    letter-spacing: 2px;
+}
+
+.title-container p {
+    color: #25252590;
+    width: 400px;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.title-container a {
+    color: white;
+    background-color: #252525;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+
+.img-article {
+    width: 50%;
+    height: 100%;
+}
+
+.img-container {
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 400px;
+}
+
+.img-container img {
+    width: 250px;
+}
+
+.img-right {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.img-left {
+    position: absolute;
+    bottom: 27%;
+    right: 33%;
+}
+
+.down-section {
+    width: 1000px;
+}
+
+.list {
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #252525;
+    margin-bottom: 50px;
+    border-radius: 40px;
+}
+
+.list > div{
+    width: 25%;
+    color: #FFFFFF;
+}

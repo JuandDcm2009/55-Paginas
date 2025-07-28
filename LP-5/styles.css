@@ -8,16 +8,19 @@ body {
     margin: 0;
     border: 0;
     font-family: "Pfont";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
-    width: 100%;
+    width: 1400px;
     display: flex;
     justify-content: flex-start;
 }
 
 header h1 {
-    margin: 40px;
     width: 400px;
     font-size: 3.5rem;
 }

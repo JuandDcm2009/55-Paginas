@@ -11,13 +11,13 @@ body {
 
 main {
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
+    justify-content: center;
 }
 
 .left-side {
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .circle-icon {
@@ -114,9 +114,10 @@ main {
 
 
 .box-container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     position: relative;
-    top: 10%;
-    right: 25%;
     width: 600px;
     height: 590px;
 }   
