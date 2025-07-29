@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: "PT Serif";
+    display: flex;
+    background-color: black;
+}
+
+main {
+    gap:650px;
+    width: 1500px;
+    height: 100vh;
+    margin: 0px auto;
+    background-image: url(src/fond.png);
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 400px;
+}
+
+.title-container h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.title-container p {
+    font-size: 1.3rem;
+    font-family: "Pfont";
+}
+
+.title-container a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #252525;
+    padding: 12px 40px;
+    border-radius: 25px;
+    font-family: "Pfont";
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.article-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.art-item {
+    width: 400px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 40px 0px;
+}
+
+.art-item h1 {
+    color: white;
+    margin: 0;
+}
+
+.art-item p {
+    width: 300px;
+    color: white;
+    font-family: "Pfont";
+}
