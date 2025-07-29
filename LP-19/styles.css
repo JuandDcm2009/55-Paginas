@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: "Pfont";
+    background-color: #F2F2F2;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.up-section {
+    height: 782px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 160px;
+    align-items: center;
+}
+
+.title-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.title-container h1 {
+    font-size: 4rem;
+    margin: 0;
+
+}
+
+.title-container p {
+    font-size: 1.3rem;
+}
+
+.title-container a {
+    margin-top: 25px;
+    text-decoration: none;
+    background-color: #252525;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+
+.down-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 70px;
+}
+
+.down-container {
+    width: 1251px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+}
+
+.article-container {
+    width: 450px;
+    
+}
+
+.article-container h2 {
+    font-size: 1.2rem;
+    color: #252525;
+}
+
+.article-container h2::before {
+    display: block;
+    content: "";
+    width: 10%;
+    height: 4px;
+    background-color: #252525;
+    margin-bottom: 15px;
+}
+
+.article-container p {
+    color: #505050;
+}
+
+.img-container {
+    width: 650px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container div {
+    display: flex;
+    gap: 25px;
+    position: absolute;
+    top: -100px;
+}

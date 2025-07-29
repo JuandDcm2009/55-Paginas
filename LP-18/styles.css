@@ -12,14 +12,16 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
+    margin-bottom: 40px;   
 }
 
 .up-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 400px;
+    width: 1235px;
 }
 
 .title-container {
@@ -34,6 +36,7 @@ main {
     font-size: 3.5rem;
     line-height: 60px;
     margin: 0;
+    font-weight: 550;
 }
 
 .title-container p {
@@ -51,10 +54,62 @@ main {
     font-family: "Pfont";
 }
 
+.left-deco {
+    height: 400px;
+    width: 400px;
+}
+
+.left-deco img {
+    margin-top: 80px;
+
+}
+
+.left-circle {
+    position: relative;
+    top: 140px;
+    left: 150px;
+}
+
+.left-circle span {
+    position: absolute;
+    transform-origin: 0px -55px;
+    transform: rotate(calc(var(--i) * 14deg));
+    left: 30px;
+    top: 30px;
+    font-size: 1.2rem;
+}
+
+.right-deco {
+    height: 400px;
+    width: 400px;
+}
+
+.right-deco img {
+    margin-top: 250px;
+}
+
+.right-circle {
+    position: relative;
+    top: 140px;
+    left: 150px;
+}
+
+.right-circle span {
+    position: absolute;
+    transform-origin: 0px -55px;
+    transform: rotate(calc(var(--i) * 14deg));
+    left: 30px;
+    top: 30px;
+    font-size: 1.2rem;
+}
+
+
+
 .down-section {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .img-container {
@@ -62,4 +117,79 @@ main {
     justify-content: center;
     align-items: center;
     height: 582px;
+    gap: 15px;
 }
+
+.left-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 582px;
+    gap: 15px;
+}
+
+.right-img {
+    display: flex;
+    flex-direction: column;
+    height: 582px;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.left-article {
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+.left-article h1 {
+    font-weight: 400;
+    line-height: 60px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.left-article h1::after {
+    margin-top: 20px;
+    display: block;
+    content: "";
+    width: 90%;
+    height: 3px;
+    background-color: #252525;
+}
+
+
+.right-article {
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+.right-article h1 {
+    
+    font-weight: 400;
+    line-height: 50px;
+    margin: 0;
+    margin-top: 35px;
+    align-self: flex-end;
+}
+
+.right-article h1::after {
+    margin-top: 20px;
+    display: block;
+    content: "";
+    width: 90%;
+    height: 3px;
+    background-color: #252525;
+}
+
+

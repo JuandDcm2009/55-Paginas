@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: "Pfont";
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.up-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.title-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    height: 650px;
+}
+
+.title-container h1 {
+    font-size: 3.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 70px;
+    color: #252525;
+    margin: 0;
+}
+
+.title-container p {
+    color: #575757;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    width: 320px;
+}
+
+.title-container a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.788);
+    background-color: #A36A4F;
+    width: 120px;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.fond-img-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 650px;
+}
+
+.fond-img-container div {
+    width: 700px;
+    height: 530px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1 {
+    position: absolute;
+    top: 0px;
+    right: 180px;
+}
+
+.img2 {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    width: 250px;
+}
+
+.down-section {
+    background-color: #363032;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-container {
+    position: relative;
+    top: -100px;
+    width: 700px;
+    display: flex;
+    background-color: #ECDAC4;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 100px;
+    padding: 30px ;
+}
+
+.list-item {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.list-item img {
+    width: 25px;
+}
+
+.list-container h2 {
+    margin: 10px;
+}
+
+.list-container p {
+    margin: 0;
+}
+
+.down-section .img-container  {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.down-section .img-container .img-item p {
+    margin: 0;
+    color: rgb(182, 182, 182);
+}
