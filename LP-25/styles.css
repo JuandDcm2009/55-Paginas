@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: "Pfont";
+    background-color: #E8D9D6;
+}
+
+main {
+    width: 1200px;
+    height: 130vh;
+    
+    margin: 0px auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.up-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left-section {
+    justify-self: flex-start;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    height: 750px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.title-container img {
+    position: absolute;
+    top: 40px;
+    width: 200px;
+    left: -30px;
+}
+
+.title-container h1 {
+    font-size: 5rem;
+    margin: 0;
+    font-family: "Poppins";
+    color: #271908;
+}
+
+.title-container p {
+    font-size: 1.2rem;
+    width: 400px;
+}
+
+
+.title-container a {
+    
+    margin-top: 20px;
+    background-color: #271908;
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+
+.right-section {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.right-container {
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+.icon-shape {
+    width: 800px;
+    position: absolute;
+    right: -100px;
+    z-index: 0;
+}
+
+.icon-fond {
+    width: 400px;
+    position: absolute;
+    bottom: 90px;
+    right: 90px;
+    z-index: 4;
+}
+
+.icon-vector1 {
+    position: absolute;
+    z-index: 3;
+    bottom: 160px;
+    right: -20px;
+}
+
+.icon-vector2 {
+    position: absolute;
+    z-index: 3;
+    bottom: 180px;
+    left: 30px;
+}
+
+.icon-logo {
+    position: absolute;
+    z-index: 6;
+    bottom: 230px;
+    right: 190px;
+}
+
+.down-section {
+    margin-top: 60px;
+    
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    width: 500px;
+    padding-right: 20px;
+    gap: 30px;
+    background-color: #FFFFFF;
+    border-radius: 130px;
+}
+
+.item h1 {
+    font-family: "Poppins";
+}

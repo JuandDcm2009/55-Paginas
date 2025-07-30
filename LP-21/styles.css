@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: "Pfont";
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    width: 99vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(src/fond.png);
+    background-size: cover;
+}
+
+.title-container h1 {
+    color: white;
+    font-size: 5rem;
+    margin: 0;
+}
+
+.title-container p {
+    text-align: center;
+    width: 530px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.title-container a {
+    margin-top: 25px;
+    text-decoration: none;
+    color: #252525;
+    background-color: white;
+    font-size: 1.1rem;
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+
+.down-section {
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down-section img {
+    width: 35%;
+}

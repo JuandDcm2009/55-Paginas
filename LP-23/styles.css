@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf);
+}
+
+body {
+    font-family: "Pfont";
+    background-color: #0D0F1B;
+    background-image: url(src/fond.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.up-section {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.up-section h1 {
+    font-size: 4rem;
+    color: white;
+    margin: 0;
+    font-family: "Lato";
+}
+
+.up-section p {
+    color: rgb(206, 206, 206);
+    font-size: 1.2rem;
+    width: 450px;
+}
+
+.up-section a {
+    text-decoration: none;
+    color: #252525;
+    background-color: white;
+    width: 125px;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 12px;
+}
+
+.down-section {
+    margin-top: 120px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.item {
+    width: 320px;
+    padding: 30px 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.226), rgba(255, 255, 255, 0.062));
+    color: white;
+    backdrop-filter: blur(5px);
+}
+
+.item h1 {
+    font-family: "Lato";
+    margin: 0;
+    margin-top: 10px;
+}
+
+.item p {
+    color: rgb(184, 184, 184);
+    width: 250px;
+    font-size: 1.2rem;
+}
+
+

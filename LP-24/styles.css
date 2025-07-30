@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: "Pfont";
+}
+
+main {
+    margin: 0px auto;
+    width: 1200px;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.left-section {
+    justify-self: flex-start;
+    width: 45%;
+
+}
+
+.title {
+    font-family: "Zilla Slab";
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.title::after {
+    margin-top: 30px;
+    display: block;
+    content: "";
+    width: 67%;
+    height: 4px;
+    background-color: #252525;
+}
+
+.title-container {
+    margin-top: 100px;
+}
+
+.title-container p {
+    font-size: 1.4rem;
+    width: 430px;
+    margin-bottom: 30px;
+}
+
+.title-container a {
+    text-decoration: none;
+    background-color: #E3B635;
+    color: #252525;
+    padding: 10px 35px;
+    border-radius: 25px;
+}
+
+.list {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.list-item {
+    border-radius: 15px;
+    width: 180px;
+    height: 160px;
+    background-color: #252525;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-item img {
+    align-self: flex-start;
+    margin-left: 40px;
+}
+
+.list-item h2 {
+    width: 100px;
+    margin: 0;
+    color: white;
+}
+
+.list-item p {
+    margin: 0;
+    width: 100px;
+    color: rgb(194, 194, 194);
+}
+
+.right-section {
+    width: 50%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.right-container {
+    position: relative;
+    width: 100%;
+    height: 97%;
+}
+
+
+.icon-fond {
+    position: absolute;
+    width: 540px;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.icon-u {
+    position: absolute;
+    top: -5px;
+    z-index: 0;
+    width: 350px;
+    height: 435px;
+    right: -70px;
+}
+
+.icon-star {
+    position: absolute;
+    bottom: 0px;
+    right: -85px;
+}
+
+.icon-asterisk {
+    top: 50px;
+    position: absolute;
+    left: -120px;
+}

@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: "Pfont";
+    background-color: #010625;
+}
+
+main {
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.up-section {
+    display: flex;
+    height: 940px;
+}
+
+.left-section {
+    width: 50%;
+
+}
+
+.title-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.title-container h1 {
+    font-family: "lato";
+    color: white;
+    font-size: 4.5rem;
+    line-height: 95px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.title-container p {
+    margin-top: 30px;
+    color: white;
+    width: 420px;
+    font-size: 1.1rem;
+}
+
+.title-container a {
+    margin-top: 25px;
+    color: #252525;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+.up-section img {
+    margin-top: 60px;
+    width: 550px;
+    height: 300px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.img-container img {
+    margin: 0;
+    width: 290px;
+    height: 400px;
+}
+
+.article-container {
+    width: 300px;
+    color: white;
+}
+
+.article-container::before {
+    display: block;
+    content: "";
+    width: 20%;
+    height: 5px;
+    background-color: white;
+}
+
+.article-item{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+} 
+
+.article-item h1 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.article-item p {
+    margin-top: 10px;
+    color: rgb(182, 182, 182);
+}
+
+.down-section {
+    margin: 50px 0px;
+    width: 1160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.down-section img {
+    width: 370px;
+}
+
