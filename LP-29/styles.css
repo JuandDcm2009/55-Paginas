@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: "Lato";
+}
+
+.up-section {
+    height: 900px;
+    background-image: url(src/fond.png);
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.title-container h1 {
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.title-container p {
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 1.3rem;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.title-container a {
+    color: #252525;
+    text-decoration: none;
+    background-color: white;
+    width: 130px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+.down-section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    height: 100px;
+}
+
+.list {
+    top: -50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    overflow: hidden;
+    
+}
+
+.list-item {
+    width: 240px;
+    height: 200px;
+    position: relative;
+}
+
+.list-item img {
+    width: 110%;
+    height: 100%;
+}
+
+.list-item h2 {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.3rem;
+}

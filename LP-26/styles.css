@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Pfont";
+    src: url(../Fonts/Avenir\ Regular.ttf);
+}
+
+
+body {
+    margin: 0;
+    font-family: "Pfont";
+    background-color: #080C15;
+    background-image: url(src/fond.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0px auto;
+    width: 1200px;
+}
+
+.up-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+   
+    margin: 40px 0px;
+    margin-top: 150px;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+.title-container p {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    width: 500px;
+    color: rgb(192, 192, 192);
+}
+
+.img-position-container {
+    position: relative;
+    width: 550px;
+    height: 104px;
+}
+
+.img-position-container img {
+    position: absolute;
+    left: calc((var(--i) * 70px));
+}
+
+.title-container a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #CD292A;
+    width: 200px;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 25px;
+}
+
+.down-section {
+    margin-top: 100px;
+    width: 1200px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.item {
+    color: white;
+    width: 300px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.267), rgba(255, 255, 255, 0));
+    padding: 15px 40px;
+    border-radius: 60px;
+}
+
+.item h1 {
+    font-size: 1.2rem;
+}

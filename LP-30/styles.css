@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: "Lato";
+    background-color: #EFC356;
+}
+
+main {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+
+.hero-section {
+    margin: auto;
+    width: 1200px;
+    position: relative;
+    height: 900px;
+}
+
+.hero-section .container {
+    position: absolute;
+    top: 150px;
+    left: 48%;
+    transform: translateX(-50%);
+}
+
+.hero-section .container img {
+    position: absolute;
+    left: 10px;
+}
+
+.letter-container {
+    position: relative;
+    transform: rotate(-90deg);
+}
+
+.letter-container span {
+    color: white;
+    position: absolute;
+    transform-origin: 0px 70px;
+    transform: rotate(calc(var(--i) * 15deg));
+    top: -45px;
+    left: 0px;
+}
+
+
+
+.letter-container2 {
+    position: relative;
+    transform: rotate(-270deg);
+}
+
+.letter-container2 span {
+    color: white;
+    position: absolute;
+    transform-origin: 0px 70px;
+    transform: rotate(calc(var(--i) * 15deg));
+    top: -95px;
+    left: 20px;
+}
+
+
+
+
+.hero-section img {
+    position: absolute;
+}
+
+.icon-perrito {
+    bottom: 120px;
+    right: 30px;
+    z-index: 4;
+}
+
+.icon-shadow {
+    z-index: 3;
+    bottom: 40px;
+    right: 30px;
+}
+
+.icon-asterisk {
+    bottom: 120px;
+    right: -60px;
+}
+
+.icon-pat2 {
+    right: -150px;
+}
+
+.icon-pat1 {
+    bottom: 150px;
+    left: 40px;
+}
+
+.up-section {
+    margin: auto;
+    width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 900px;
+}
+
+.title-container {
+    margin-top: 140px;
+    width: 600px;
+}
+
+.title-container h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+.title-container p {
+    color: white;
+    font-size: 1.3rem;
+    width: 500px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.title-container a {
+    text-decoration: none;
+    color: white;
+    background-color: #7EB5E1;
+    padding: 15px 50px;
+    border-radius: 25px;
+}
+
+.down-section {
+    height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    background-color: white;
+}
+
+.img-container {
+    top: -70px;
+    position: absolute;
+    display: flex;
+    background-color: #EFEEEE;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+
+.img-item {
+    display: flex;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.img-item h1 {
+    margin: 0;
+}
+
+.img-item p {
+    margin: 0;
+    width: 200px;
+}
